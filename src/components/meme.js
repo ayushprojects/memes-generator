@@ -57,7 +57,6 @@ export default function Meme() {
         </button>
       </div>
       <div className="meme">
-        // eslint-disable-next-line jsx-a11y/alt-text
         <img src={meme.randomImage} className="meme--image" />
         <h2 className="meme--text top">{meme.topText}</h2>
         <h2 className="meme--text bottom">{meme.bottomText}</h2>
